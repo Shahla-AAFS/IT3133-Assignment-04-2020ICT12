@@ -1,6 +1,6 @@
 
 import './App.css';
-
+import AnimalCard from './AnimalCard';
 
 function App() {
   return (
