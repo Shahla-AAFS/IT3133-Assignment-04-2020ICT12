@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react'
-import {animals} from '../assets/data/AnimalsDb';
+import {animals} from '../assets/data/AnimalDb';
 //import '../assets/css/compo.css'
 
 
