@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react'
 import {animals} from '../assets/data/AnimalDb';
-//import '../assets/css/compo.css'
+import '../assets/css/compo.css'
 
 
 function AnimalCard(props) {
