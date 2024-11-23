@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react'
-import {animals} from '../assets/data/AnimalDb';
+import animals from '../assets/data/AnimalsDb';
 import '../assets/css/compo.css'
 
 
@@ -63,7 +63,7 @@ function AnimalCard(props) {
                             <div className='animalgrid'>
                                 {animals.map((animal)=>(
                                     <div key={animal.name} className='animalgrid-item' onClick={()=>handleAnimalClick(animal.name)}>
-                                        <img src={require(`../assets/img/${animal.img}`)} alt={animal.name} className='animal-image'/>
+                                        <img src={require(`../assets/fig/${animal.img}`)} alt={animal.name} className='animal-image'/>
                                     </div>
                                 ))}
                             </div>
